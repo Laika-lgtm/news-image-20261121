@@ -1,0 +1,253 @@
+{
+ "date": "Saturday, 21 November 2026",
+ "paper": "THE WORLD TODAY",
+ "stories": [
+  {
+   "deck": "Tusk calls it an “intentional provocation”; NATO chief Rutte calls it a “grave violation” of allied airspace.",
+   "headline": "Russian missiles land in Poland",
+   "hero": true,
+   "id": 1,
+   "region": "EUROPE",
+   "source": "AP · Reuters"
+  },
+  {
+   "deck": "400+ drones and 110 missiles fired; at least 8 killed. Kryvyi Rih: 2 dead, 42 injured.",
+   "headline": "Russia hammers Kyiv bridges in biggest air attack",
+   "id": 2,
+   "region": "EUROPE",
+   "source": "AP"
+  },
+  {
+   "deck": "Burnham seals three agreements in Brussels; youth mobility for ages 18–31, with an annual cap.",
+   "headline": "UK and EU sign food, carbon and youth deals",
+   "id": 3,
+   "region": "EUROPE",
+   "source": "BBC"
+  },
+  {
+   "deck": "FT cites four sources; Kushner says Moscow accepts NATO-like guarantees.",
+   "headline": "Trump wants Ukraine peace deal by early January",
+   "id": 4,
+   "region": "EUROPE",
+   "source": "Financial Times"
+  },
+  {
+   "deck": "Joint equipment buys via the European Peace Facility; delivery envisaged by end of 2027.",
+   "headline": "EU adopts €1bn in military aid for Ukraine",
+   "id": 5,
+   "region": "EUROPE",
+   "source": "EU Council"
+  },
+  {
+   "deck": "Marches over prices, housing and wages; youth action called for 20–22 Nov.",
+   "headline": "Cost-of-living protests sweep Europe",
+   "id": 6,
+   "region": "EUROPE",
+   "source": "BBC"
+  },
+  {
+   "deck": "US president says a decision may wait until 2027; Senate rejects war-powers curb, 51–48.",
+   "headline": "Iran war nears ninth month; Trump in no rush",
+   "id": 7,
+   "region": "MIDDLE EAST",
+   "source": "Reuters · AP"
+  },
+  {
+   "deck": "Three ballistic missiles intercepted; coalition strikes Hodeidah and tells civilians to leave.",
+   "headline": "Saudi coalition stops Houthi missiles over Riyadh",
+   "id": 8,
+   "region": "MIDDLE EAST",
+   "source": "Reuters"
+  },
+  {
+   "deck": "UKMTO reports a strike and fire 8 nautical miles north of Khasab; oil prices climb.",
+   "headline": "Tanker struck and ablaze in Strait of Hormuz",
+   "id": 9,
+   "region": "MIDDLE EAST",
+   "source": "UKMTO"
+  },
+  {
+   "deck": "Treasury's OFAC list targets handlers of Iranian oil revenues; names published 20 November.",
+   "headline": "US sanctions four Iranians over oil money",
+   "id": 10,
+   "region": "MIDDLE EAST",
+   "source": "US Treasury"
+  },
+  {
+   "deck": "ICJ rules 9–6 that security forces committed state-sponsored genocide against the Rohingya.",
+   "headline": "World Court: Myanmar committed genocide",
+   "id": 11,
+   "region": "ASIA",
+   "source": "ICJ · AP"
+  },
+  {
+   "deck": "Storm crosses Odisha coast near Gopalpur at 70–80 km/h; 423 teams deployed, no deaths.",
+   "headline": "Cyclone Akvan: 372,000 evacuated, none killed",
+   "id": 12,
+   "region": "ASIA",
+   "source": "IMD"
+  },
+  {
+   "deck": "Draft deal drops fossil fuels; Panama threatens veto; new text due Saturday morning.",
+   "headline": "COP31 goes into overtime as fossil fuels vanish",
+   "id": 13,
+   "region": "ASIA",
+   "source": "AP"
+  },
+  {
+   "deck": "First trilateral summit in Shenzhen ends with few results; leaders seek UN reform, more oil.",
+   "headline": "Trump–Xi–Putin summit ends with little to show",
+   "id": 14,
+   "region": "ASIA",
+   "source": "Reuters · AP"
+  },
+  {
+   "deck": "India 298/2 after NZ's 368; Jaiswal–Rahul share a century opening stand, a first in NZ.",
+   "headline": "India fight back in Wellington Test",
+   "id": 15,
+   "region": "ASIA",
+   "source": "IANS"
+  },
+  {
+   "deck": "National Stock Exchange passes Nasdaq and Hong Kong by market value; Sensex rallies 898 points.",
+   "headline": "India's NSE becomes world's 5th-largest exchange",
+   "id": 16,
+   "region": "ASIA",
+   "source": "NSE"
+  },
+  {
+   "deck": "Goalless draw with Malaysia seals top spot in Group E — a second straight qualification.",
+   "headline": "India U17 reach Asian Cup 2027",
+   "id": 17,
+   "region": "ASIA",
+   "source": "IANS"
+  },
+  {
+   "deck": "Balendra Shah's first India trip as prime minister; talks expected on trade and ties.",
+   "headline": "Nepal PM to visit India on 22–23 November",
+   "id": 18,
+   "region": "ASIA",
+   "source": "Observer Voice"
+  },
+  {
+   "deck": "Nasdaq falls 5.28% as the AI sell-off deepens; S&P 500 down about 3.7% on the week.",
+   "headline": "Wall Street rout: S&P and Dow enter correction",
+   "id": 19,
+   "region": "NORTH AMERICA",
+   "source": "Reuters"
+  },
+  {
+   "deck": "Nvidia slides about 14%; Anthropic falls 10.2% a day after the biggest IPO ever.",
+   "headline": "SEC probing Nvidia's accounting, Reuters reports",
+   "id": 20,
+   "region": "NORTH AMERICA",
+   "source": "Reuters"
+  },
+  {
+   "deck": "First time since July as lofty valuations weigh on crypto; a weekly slide for digital assets.",
+   "headline": "Bitcoin drops below $60,000",
+   "id": 21,
+   "region": "NORTH AMERICA",
+   "source": "Reuters"
+  },
+  {
+   "deck": "Rockstar reports the biggest first-day retail sales in entertainment history.",
+   "headline": "GTA VI sets record: $3.79bn on day one",
+   "id": 22,
+   "region": "NORTH AMERICA",
+   "source": "Rockstar Games"
+  },
+  {
+   "deck": "Jonathan Rinderknecht found guilty in Los Angeles over the deadly 2025 blaze.",
+   "headline": "Jury convicts man who started Palisades Fire",
+   "id": 23,
+   "region": "NORTH AMERICA",
+   "source": "AP"
+  },
+  {
+   "deck": "New York mayor announces plan to shut the jail complex and open four borough jails.",
+   "headline": "Mamdani to close Rikers Island jail by 2032",
+   "id": 24,
+   "region": "NORTH AMERICA",
+   "source": "AP"
+  },
+  {
+   "deck": "Baseball's banned hits leader pardoned more than two years after his death.",
+   "headline": "Trump posthumously pardons Pete Rose",
+   "id": 25,
+   "region": "NORTH AMERICA",
+   "source": "AP"
+  },
+  {
+   "deck": "Cincinnati Zoo's famed hippo dies days after a visitor's hat landed in her pool.",
+   "headline": "Fiona the hippo dies after swallowing a hat",
+   "id": 26,
+   "region": "NORTH AMERICA",
+   "source": "AP"
+  },
+  {
+   "deck": "Worst result since 1994: 31% of the vote, down from 46%; DA takes Johannesburg and Pretoria.",
+   "headline": "ANC scrambles to keep South Africa's cities",
+   "id": 27,
+   "region": "AFRICA",
+   "source": "BBC"
+  },
+  {
+   "deck": "Femicide figures underline a crisis as parties haggle over coalitions until 27 November.",
+   "headline": "Nearly 600 women killed in South Africa in 3 months",
+   "id": 28,
+   "region": "AFRICA",
+   "source": "BBC"
+  },
+  {
+   "deck": "President Abdel Fattah el-Sisi, in power since 2013, announces his exit date.",
+   "headline": "Sisi says he will step down in Egypt in 2030",
+   "id": 29,
+   "region": "AFRICA",
+   "source": "Breitbart"
+  },
+  {
+   "deck": "El Salvador's president registers for the 2027 election, chasing a third straight term.",
+   "headline": "Bukele seeks an unprecedented third term",
+   "id": 30,
+   "region": "LATIN AMERICA",
+   "source": "Breitbart"
+  },
+  {
+   "deck": "Joint training and intelligence sharing agreed in Caracas after a two-decade break.",
+   "headline": "US and Venezuela restore military ties",
+   "id": 31,
+   "region": "LATIN AMERICA",
+   "source": "IRIA"
+  },
+  {
+   "deck": "AtlasIntel finds nearly half of Brazilians believe fraud marred Lula's re-election.",
+   "headline": "Brazil poll: 42% see fraud in 2026 election",
+   "id": 32,
+   "region": "LATIN AMERICA",
+   "source": "AtlasIntel"
+  },
+  {
+   "deck": "Phillip Island race called off; the circuit's 30th and final grand prix ends in water, not racing.",
+   "headline": "Floods cancel Australian Grand Prix",
+   "id": 33,
+   "region": "OCEANIA",
+   "source": "Archysport"
+  },
+  {
+   "deck": "Sandpapergate claims resurface as Smith's training is closed to media; first T20I today.",
+   "headline": "Australia–England T20 opener at the MCG",
+   "id": 34,
+   "region": "OCEANIA",
+   "source": "Inshorts"
+  },
+  {
+   "deck": "NASA's farthest spacecraft calls in from one light-day out — about 26 billion km from Earth.",
+   "headline": "Voyager 1 phones home from a light-day away",
+   "id": 35,
+   "region": "GLOBAL",
+   "source": "NASA · AP"
+  }
+ ],
+ "title": "Saturday 21 November 2026: 35 stories, 7 regions — Russian missiles hit Poland, Cyclone Akvan landfall, Wall Street's AI sell-off, UK–EU deal"
+}
