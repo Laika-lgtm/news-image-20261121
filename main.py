@@ -1,38 +1,47 @@
-"""Copy the pre-rendered front page to the output directory.
+#!/usr/bin/env python3
+"""Entrypoint: copy the rendered front page to the harness output dir.
 
-The entry image is stored in this repository as entry.jpg. The grader
-runs this program twice in a fresh container with a read-only copy of
-the repository and a writable output directory, and expects the output
-file to be named entry.png (the name stays entry.png even though the
-bytes are a JPEG). Outside the grader, MAKEFUN_OUTPUT_DIR stands in
-for /output.
+The image is rendered by render_frontpage.py into entry.jpg next to this
+file. This program copies it to $MAKEFUN_OUTPUT_DIR/entry.png (or
+/output/entry.png) and verifies the copy is byte-identical to the
+source, failing loudly otherwise.
 """
-
 import hashlib
 import os
 import shutil
 import sys
-from pathlib import Path
 
 
-def _sha256(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()
+def sha256(path):
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for chunk in iter(lambda: f.read(65536), b""):
+            h.update(chunk)
+    return h.hexdigest()
 
 
-def main() -> int:
-    source = Path(__file__).resolve().parent / "entry.jpg"
-    if not source.is_file():
-        print(f"error: {source} is missing", file=sys.stderr)
-        return 1
-    out_dir = Path(os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output")
-    out_dir.mkdir(parents=True, exist_ok=True)
-    target = out_dir / "entry.png"
-    shutil.copyfile(source, target)
-    if _sha256(target) != _sha256(source):
-        print(f"error: {target} differs from {source}", file=sys.stderr)
-        return 1
-    return 0
+def main():
+    here = os.path.dirname(os.path.abspath(__file__))
+    src = os.path.join(here, "entry.jpg")
+    out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output"
+    os.makedirs(out_dir, exist_ok=True)
+    dst = os.path.join(out_dir, "entry.png")
+    shutil.copyfile(src, dst)
+    if sha256(src) != sha256(dst):
+        print("FATAL: output hash does not match entry.jpg", file=sys.stderr)
+        sys.exit(1)
+    size = os.path.getsize(dst)
+    if size > 1048576:
+        print("FATAL: entry exceeds 1 MiB (%d bytes)" % size, file=sys.stderr)
+        sys.exit(1)
+    from PIL import Image
+    with Image.open(dst) as im:
+        if im.size[0] > 1024 or im.size[1] > 1024:
+            print("FATAL: entry exceeds 1024x1024 (%s)" % (im.size,),
+                  file=sys.stderr)
+            sys.exit(1)
+    print("wrote", dst, size, "bytes")
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    main()
