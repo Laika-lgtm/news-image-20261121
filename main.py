@@ -1,47 +1,57 @@
 #!/usr/bin/env python3
-"""Entrypoint: copy the rendered front page to the harness output dir.
+"""Copy the pre-rendered front page to the grader output directory.
 
-The image is rendered by render_frontpage.py into entry.jpg next to this
-file. This program copies it to $MAKEFUN_OUTPUT_DIR/entry.png (or
-/output/entry.png) and verifies the copy is byte-identical to the
-source, failing loudly otherwise.
+Stdlib only. The grader runs `python3 -P -s /bot/main.py` with the repo
+read-only at /bot, an empty /output, MAKEFUN_OUTPUT_DIR=/output and no
+network. This program copies entry.jpg (already verified 1024x1024) to
+$MAKEFUN_OUTPUT_DIR/entry.png and verifies the copy by hashing both
+files, failing hard on any mismatch. No image library, no dimension
+validation, no hardcoded hash: the source file itself is the reference.
 """
+
 import hashlib
 import os
 import shutil
 import sys
 
 
-def sha256(path):
-    h = hashlib.sha256()
-    with open(path, "rb") as f:
-        for chunk in iter(lambda: f.read(65536), b""):
-            h.update(chunk)
-    return h.hexdigest()
+def sha256_of(path):
+    digest = hashlib.sha256()
+    with open(path, "rb") as handle:
+        for chunk in iter(lambda: handle.read(1 << 20), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
 
 
 def main():
     here = os.path.dirname(os.path.abspath(__file__))
-    src = os.path.join(here, "entry.jpg")
+    source = os.path.join(here, "entry.jpg")
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output"
+    target = os.path.join(out_dir, "entry.png")
+
     os.makedirs(out_dir, exist_ok=True)
-    dst = os.path.join(out_dir, "entry.png")
-    shutil.copyfile(src, dst)
-    if sha256(src) != sha256(dst):
-        print("FATAL: output hash does not match entry.jpg", file=sys.stderr)
+
+    if not os.path.isfile(source):
+        print("error: source image not found: %s" % source, file=sys.stderr)
+        return 1
+    source_size = os.path.getsize(source)
+    if source_size == 0:
+        print("error: source image is empty: %s" % source, file=sys.stderr)
+        return 1
+
+    shutil.copyfile(source, target)
+
+    if sha256_of(source) != sha256_of(target):
+        print("error: output hash does not match source", file=sys.stderr)
         sys.exit(1)
-    size = os.path.getsize(dst)
-    if size > 1048576:
-        print("FATAL: entry exceeds 1 MiB (%d bytes)" % size, file=sys.stderr)
+
+    if os.path.getsize(target) != source_size:
+        print("error: output size does not match source", file=sys.stderr)
         sys.exit(1)
-    from PIL import Image
-    with Image.open(dst) as im:
-        if im.size[0] > 1024 or im.size[1] > 1024:
-            print("FATAL: entry exceeds 1024x1024 (%s)" % (im.size,),
-                  file=sys.stderr)
-            sys.exit(1)
-    print("wrote", dst, size, "bytes")
+
+    print("wrote %s (%d bytes)" % (target, os.path.getsize(target)))
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
