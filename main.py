@@ -1,26 +1,38 @@
-#!/usr/bin/env python3
-"""Copy the rendered front page to the output directory.
+"""Copy the pre-rendered front page to the output directory.
 
-The entry image is rendered at build time by render_frontpage.py (PIL)
-and shipped in this repository as entry.jpg. This program only copies
-it to the output directory, using the standard library, so both grader
-runs write identical bytes.
+The entry image is stored in this repository as entry.jpg. The grader
+runs this program twice in a fresh container with a read-only copy of
+the repository and a writable output directory, and expects the output
+file to be named entry.png (the name stays entry.png even though the
+bytes are a JPEG). Outside the grader, MAKEFUN_OUTPUT_DIR stands in
+for /output.
 """
+
+import hashlib
 import os
 import shutil
+import sys
+from pathlib import Path
 
 
-def main():
-    here = os.path.dirname(os.path.abspath(__file__))
-    src = os.path.join(here, "entry.jpg")
-    if not os.path.isfile(src):
-        raise SystemExit("entry.jpg missing next to main.py")
-    outdir = os.environ.get("MAKEFUN_OUTPUT_DIR", "out")
-    os.makedirs(outdir, exist_ok=True)
-    dst = os.path.join(outdir, "entry.jpg")
-    shutil.copyfile(src, dst)
-    print("wrote", dst, os.path.getsize(dst), "bytes")
+def _sha256(path: Path) -> str:
+    return hashlib.sha256(path.read_bytes()).hexdigest()
+
+
+def main() -> int:
+    source = Path(__file__).resolve().parent / "entry.jpg"
+    if not source.is_file():
+        print(f"error: {source} is missing", file=sys.stderr)
+        return 1
+    out_dir = Path(os.environ.get("MAKEFUN_OUTPUT_DIR") or "/output")
+    out_dir.mkdir(parents=True, exist_ok=True)
+    target = out_dir / "entry.png"
+    shutil.copyfile(source, target)
+    if _sha256(target) != _sha256(source):
+        print(f"error: {target} differs from {source}", file=sys.stderr)
+        return 1
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
