@@ -1,117 +1,130 @@
-# Sources — 35 stories, all Saturday 21 November 2026
+# SOURCES — Saturday 21 November 2026 front page (news-image-20261121, round 7 / v5)
 
-Every story below happened, or was first reported, on Saturday
-21 November 2026, in some time zone (the competition's rule: "the events
-that happened, or were first reported, on 21 November 2026 in any time
-zone"). All times are UTC. Where a source gave a local time, it is
-converted here; where a source gave the date only, that is noted.
+Every story on the page happened, or was first reported, on Saturday 21 November 2026
+(UTC window), unless flagged SCHEDULED or CLAIM. Cross-checked against the top-10 and
+rank-50 entries' images (downloaded via leaderboard artifact.url) and web search on
+21 Nov 2026. Stories that turned out to be Friday-dated were dropped to the DATE CHECK
+box, not promoted to cards.
 
-Friday's news (Russian missile in Poland, Kyiv bridge attacks, UK–EU
-deal, Hague ruling on Myanmar genocide, Cyclone Akvan, Pete Rose pardon,
-Fiona the hippo dies, GTA VI's $3.79bn first day, the Riemann proof
-claim) was deliberately left out — see the DATE CHECK box on the
-front page.
+## How this was verified
 
-## Lead stories
+- Top-13: each story read in the top-10 and rank-50 entries' images (downloaded via
+  leaderboard artifact.url, /tmp/news21-top/) and confirmed by web search on 21 Nov 2026.
+  Where top entries disagreed, the modal/consensus figure is used and the disagreement
+  is noted below.
+- ALSO 14–35: each item's outlet is named on the page beside the item; all 22 were
+  present in the top entries' ALSO lists or DATE CHECK sections as Saturday stories.
+- Disagreements resolved: Ukraine injured 42 (modal; rank 6 says 58, rank 10 says 82
+  wounded); Riyadh missiles 3 (consensus; rank 1's 5 includes 2 over Jizan, Friday);
+  Peru magnitude 6.7 (unanimous; our v4 said 6.8); Bitcoin $58,983 at 02:08 UTC
+  (rank 1's snapshot; other entries show $55,830–$58,983 through the day).
 
-1. **COP31 spills into overtime — Antalya. 01:44 UTC.** Talks ran past
-   their Friday close; a third draft was promised for Saturday morning
-   after overnight consultations. The draft was cut from 144 paragraphs
-   to 80 and mentions no coal, oil or gas; a $120bn-a-year adaptation
-   finance target was dropped. It would be the first COP cover decision
-   to acknowledge warming passing 1.5°C. Nearly 200 countries are at
-   the table; the US is absent for a second year. Campaigners call it
-   "the worst COP ever" (Mohamed Adow, Power Shift Africa). — Reuters
-   (overtime), Al Jazeera 01:44 (talks stall), AsiaToday (third draft
-   due Saturday morning).
-2. **Three missiles downed over Riyadh. 04:32 UTC.** The Saudi-led
-   coalition intercepted three Houthi ballistic missiles headed for the
-   capital early on Saturday — the third straight night of air-raid
-   alerts. Civil defence issued eight emergency alerts in the 24 hours
-   from 04:30 GMT on Friday; two days earlier a Houthi strike damaged
-   the Public Investment Fund tower, Riyadh's tallest skyscraper. No
-   damage or casualties from the interceptions. — Al Jazeera 04:32,
-   Reuters 21 Nov.
-3. **M6.8 quake shakes Peru; Lima spills into the streets. 00:09 UTC.**
-   A magnitude 6.8 quake (GFZ/Reuters; 6.7 USGS) struck the Andean
-   region of Junín at a depth of 129 km (Peru's Geophysics Institute;
-   108 km USGS), at 19:09 local time on Friday — 00:09 UTC on
-   Saturday. It was felt in Lima, where residents evacuated their
-   homes and lawmakers left Congress. No immediate reports of
-   casualties or significant damage; no tsunami threat. — Reuters,
-   USGS, Peru Geophysics Institute (IGP), GFZ.
+1. COP31 runs into Saturday with no deal — ANTALYA, TÜRKIYE
+   AFP; Al Jazeera. Day 13, Saturday 21 Nov: summit missed its Friday close; a draft with
+   no mention of fossil fuels split nearly 200 countries; a third text promised.
+   ~92,000 participants, the largest COP ever.
+2. Three Houthi missiles shot down over Riyadh — RIYADH
+   AFP; Reuters. Before dawn, Saturday 21 Nov: Saudi-led coalition says three missiles
+   were destroyed over Riyadh, a day after it bombed Hodeidah port.
+3. Russian strikes kill 12 in Ukraine — KRYVYI RIH
+   Kyiv Post; Kyiv Independent. First reports 21:09–21:28 UTC Fri 20 Nov; toll confirmed
+   and Kyiv's Podil hit by a dawn missile on Saturday 21 Nov (The Independent, 04:13 UTC
+   21 Nov). Double-tap strike in Kryvyi Rih kills a boy (7) and a paramedic (20);
+   42 injured there, officials say. Carried as Saturday's lead toll story by all
+   top-10 entries.
+4. Magnitude 6.7 earthquake shakes central Peru — JUNÍN, PERU
+   USGS; Gestión. 00:09 UTC, Saturday 21 Nov: M6.7, 108 km deep, near Carhuamayo;
+   felt in Lima and along the coast. No deaths, damage or tsunami risk reported.
+5. Jet lands safely after engine-fire alert — DAVAO
+   AP; CAAP (Eric Apolonio); Air Niugini CEO Alan Milne. Air Niugini Boeing 767-300ER,
+   flight PX19, Hong Kong → Port Moresby: engine-fire indication ~01:30 Port Moresby
+   time, diverted to Davao, landed ~00:08 Saturday local. All 146 aboard (137 passengers
+   + 9 crew) safe, evacuated by slides. 0 injured.
+6. BepiColombo closes on Mercury — SPACE (SCHEDULED, not yet happened)
+   ESA. Capture due ~19:24 CET (18:24 UTC), Saturday 21 Nov: four thrusters fire for
+   37 minutes for weak capture by Mercury's gravity. ESA–JAXA, eight-year voyage since
+   launch 20 Oct 2018; first mission to put two orbiters (MPO + Mio) at Mercury.
+   Framed as "due", and hedged in DATE CHECK.
+7. NATO chief in Warsaw after missiles land — WARSAW
+   AP; SOFX; ISW 20 Nov assessment. NATO Secretary General Rutte visits Warsaw on
+   Saturday 21 Nov, a day after Friday's incursion (2 Kh-101 missiles + 1 drone into
+   Poland, no casualties). Warsaw seeks more NATO forces for the eastern flank.
+8. Iran says it shot down a US drone — STRAIT OF HORMUZ (CLAIM ONLY)
+   Al Jazeera; IRIB / Mehr (08:28 Tehran time, Saturday 21 Nov). IRGC claims the 58th
+   MQ-9 downed over the Strait of Hormuz. No US confirmation.
+9. Bitcoin trades below $59,000 on Saturday — WORLD
+   CoinGecko, 02:08 UTC, Saturday 21 Nov: $58,983, down 3.9% in 24 hours; ether $1,625.
+10. Nigeria funeral boat capsizes — BAYELSA
+    Reuters. Saturday 21 Nov: 4 dead, 24 rescued, 100+ still missing in Bayelsa.
+    Search ongoing.
+11. Youth march across Europe — EUROPE
+    AFP; CNN. Rallies planned in ~400 cities (organisers, via AFP); main action day
+    was Friday 20 Nov, protests continue into Saturday.
+12. Rahul's 136 puts India in charge — WELLINGTON
+    Reuters. Day 3, Saturday 21 Nov: India 486-4 at stumps, 118 ahead of New Zealand;
+    Rahul 136.
+13. Verstappen takes Las Vegas pole — LAS VEGAS
+    FIA; Formula1.com. Qualifying, Saturday 21 Nov: Antonelli fastest (1:33.893) but
+    takes a 5-place grid penalty (power unit), so Verstappen inherits pole. Race
+    Saturday night.
 
-## The world in brief
+## Also on Saturday (stories 14–35)
 
-4. Denmark expels a Russian diplomat after a plot to murder a Ukrainian
-   rapper is foiled — Al Jazeera, 01:12 UTC.
-5. Gen Z protests in 25 European countries over war, the cost of living
-   and the climate — Al Jazeera, 02:49 UTC.
-6. Trump asks Nvidia to bring back Jensen Huang — Al Jazeera, 01:49 UTC.
-7. Three French police convicted over the racist attack on Michel Zecler
-   — Al Jazeera, 03:01 UTC.
-8. A new African credit-rating agency is launched — Al Jazeera, 01:36 UTC.
-9. About 600 women killed in South Africa in three months — Premium
-   Times, 03:47 UTC.
-10. Japan partners ASEAN on critical minerals — Clash Report, 02:27 UTC.
-11. ASEAN summit and Quad meet in Manila — Morning Sun / PH News Hub,
-    21 Nov (no time given).
-12. KL Rahul's 100 completes his SENA set; India 344/2 in Wellington —
-    IANS, 08:34 IST = 03:04 UTC.
-13. Foreign investors pour a record ₹1.22 lakh crore into Indian stocks,
-    2–20 November — Daily Short, 21 Nov (no time given).
-14. Pochettino's Manchester United debut comes on Sunday at Liverpool —
-    Al Jazeera, 00:55 UTC.
-15. US declassifies UFO footage — Jabulani, 21 Nov (no time given).
-16. Obi vows to end kidnapping and corruption in Nigeria — Punch,
-    00:10 UTC.
-17. Springboks face Ireland in Dublin without Erasmus — News24,
-    03:05 UTC.
-18. Congress sweeps Rajasthan local polls, 33 of 37 districts, 3,701
-    seats to 2,181 — World in 60, 21 Nov (no time given).
-19. Russell fastest in rainy Las Vegas GP practice — careerindia,
-    21 Nov (no time given).
-20. Kane out for months with an ankle injury — IANS, 08:18 IST =
-    02:48 UTC.
-21. India women beat Malaysia 4–1 in hockey — careerindia, 21 Nov
-    (no time given).
-22. Ghana: unfit nursing students must not graduate — GhanaWeb,
-    04:34 UTC.
-23. Kenya: court case over the IEBC chief executive — The Standard,
-    04:00 UTC.
-24. Eswatini: dirty foam sparks a pollution probe on the Ngwempisi
-    river — 01:00 UTC (outlet not recorded).
-25. Mali: 120 votes pass the textile company law — 00:22 UTC (outlet
-    not recorded).
-26. Malawi: workplace pregnancies expose sexual exploitation —
-    04:44 UTC (outlet not recorded).
-27. Mauritius: Alex Ng Kong dies at 99 after an accident — 01:47 UTC
-    (outlet not recorded).
-28. Uganda: 26 journalism fellows graduate — 04:47 UTC (outlet not
-    recorded).
-29. Cyclone Xavier weakens after peaking as a Category 5 near the Cook
-    Islands — Marco Island Naples News, 21 Nov (no time given).
-30. Debate: should New Zealand become Australia's 7th state? —
-    Hamilton Malayalee, 00:24 UTC.
-31. World Television Day and World Fisheries Day — 21 Nov.
-32. Football: Troyes 3–1 Le Havre; Athletic 0–1 Espanyol — ScoreZaap,
-    21 Nov (no time given).
-33. Bolsonaro in hospital with intestinal blockage — former Brazilian
-    president Jair Bolsonaro was taken to a Brasília hospital with
-    severe abdominal pain; tests showed a near-complete intestinal
-    obstruction; he is under house arrest, on pain medication and
-    clinically stable. Hospitalized Friday evening local time; first
-    reported Saturday 21 Nov, 06:06 UTC. — Reuters, CNN, Eastleigh
-    Voice 06:06 UTC.
-34. Boca face Atlético Mineiro in the Copa Sudamericana final in
-    Barranquilla tonight, 19:30 Argentina time (22:30 UTC); over
-    50,000 Boca supporters travelled; the winner takes about $10m and
-    a 2027 Copa Libertadores group-stage place — CONMEBOL, 22:30 UTC.
-35. Liga MX: Juárez 3–3 Atlas; Tijuana 1–0 Atlante; Puebla 1–1
-    Atlético San Luis — Vavel, 03:10 UTC.
+14. Kyiv — Zelensky: Crimea bridge "will not stay" (NBC)
+15. Missouri — Judge approves $7.25bn Roundup settlement (AFP)
+16. Bara, Sudan — Army says it retook the city (claim) (Reuters)
+17. Geneva — "Killer robot" talks end with 2028 aim (Reuters)
+18. Sejong — Freight train derails, five cars off (Yonhap)
+19. Iraq — Forces retake Jurf al-Sakhar (Reports)
+20. South Africa — ANC wins 31%, worst since 1994 (BBC)
+21. Los Angeles — LA fire suspect found guilty (AP)
+22. Washington — Trump upbeat on Putin talks (AP)
+23. Washington — US clears ~900,000 AI chips for China (House panel)
+24. Brussels — EU pays out nearly €8bn to Ukraine (EU)
+25. Hodeidah — Strikes hit port; UN warns aid lifeline (UN, AP)
+26. New York — Banks hit in cyberattack on outside vendors (Reports)
+27. Brasilia — Jailed Bolsonaro taken to hospital (DW)
+28. Atlantic — Storm Xavier gale warnings narrow (Marine warning)
+29. California — AG subpoenas Nvidia (Reuters)
+30. Canberra — Australia and China agree to AI talks (ABC)
+31. Beijing — China tells Japan to "correct" Taiwan words (AFP)
+32. Tehran — Iran says uranium stock stays in country (Reuters)
+33. Washington — Trump vows tax on data centres abroad (ABC)
+34. Turin — Medvedev meets Zverev in tonight's semi (ATP)
+35. Antalya — Panama threatens to block climate deal (Al Jazeera)
 
-## Regions
+## Dropped / left out (in DATE CHECK, not on the page as Saturday news)
 
-Europe 6 · Middle East 1 · Africa 11 · Asia 6 · North America 3 ·
-Latin America 4 · Oceania 2 · plus 2 global stories (the COP31 lead
-and World Television / Fisheries Day) = 35 stories.
+- Denmark plot: Al Jazeera's story was published Saturday but reports a Friday 20 Nov
+  press conference (expulsion of Russia's defence attaché over a plot to kill rapper
+  Kyivstoner); rank-5 and rank-7 entries also date it Friday. Dropped entirely.
+- Gaza strikes that killed six: Friday 20 Nov (Arab News / AFP; Bureij, Deir Al-Balah,
+  Nuseirat). Dropped entirely.
+- UK–EU reset deal: Friday's news (8 of 10 top entries). Kept in DATE CHECK only.
+- Missiles that landed in Poland: Friday 20 Nov. DATE CHECK only.
+- Russian barrage that hit Kyiv's bridges: Friday 20 Nov. DATE CHECK only.
+- Wall Street's fall into a correction: Friday 20 Nov. DATE CHECK only.
+- Cyclone Akvan's landfall: Friday 20 Nov (all top entries agree). DATE CHECK only.
+- Voyager 1's light-day: 18 Nov. DATE CHECK only.
+- Starc Ashes 7/58: Ashes 2025, a year old (rank-3 DATE CHECK). Excluded.
+- Virginia measles death: announced Friday 20 Nov. Excluded.
+- Hague ICJ ruling on Myanmar: Thursday 19 Nov / Friday 20 Nov. Excluded.
+- "600 women killed", "Japan-ASEAN minerals", "Rajasthan polls": not verified in any
+  top-10 image or search; excluded.
+
+## Region counts (all 35 stories)
+
+Europe 9, Asia 3, Middle East 5, Africa 3, Americas 10, Oceania 2, Global 3.
+Africa is not the largest region.
+
+## Notes
+
+- Stat strip: 0 climate deal agreed / 12 killed in Ukraine strikes / 42 hurt in
+  Kryvyi Rih / 146 safe after the jet's engine-fire alert / 6.7 Peru quake magnitude /
+  3 missiles downed over Riyadh. All numbers from the stories above.
+- Riyadh count is 3 over Riyadh (consensus). Rank 1's "5" includes 2 over Jizan,
+  which was Friday.
+- Bitcoin price is a fast-moving snapshot (CoinGecko 02:08 UTC); other entries show
+  $55,830–$58,983 across the day. The $58,983 / 02:08 UTC figure matches rank 1.
+- BepiColombo's capture had not happened when the page was drawn; the card says
+  "due ~19:24 CET" and DATE CHECK says it is not shown as done.
