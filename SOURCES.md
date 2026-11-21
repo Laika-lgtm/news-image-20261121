@@ -1,102 +1,65 @@
-# Sources — news-image-20261121
+# Sources — 31 stories, all Saturday 21 November 2026
 
-All 35 stories were verified against live reporting read on 21 November 2026
-(09:00–10:00 WIB). Numbers, names and dates below are as reported by the
-named source. Stories are the day's news: events of 21 November 2026, plus
-late-20-November events first reported across time zones on 21 November.
+Every story below happened, or was first reported, on Saturday
+21 November 2026. Friday's news (Russian missile in Poland, Kyiv bridge
+attacks, UK–EU deal, Hague ruling on Myanmar genocide, Cyclone Akvan,
+Pete Rose pardon, Fiona the hippo dies, GTA VI's $3.79bn first day, the
+Riemann proof claim) was deliberately left out — see the DATE CHECK box
+on the front page.
 
-## Europe
-1. Russian missiles land in Poland — AP ("Russian missiles land in Poland, as
-   Europe held military drills nearby"), Reuters (NOWY LIPOWIEC, 20 Nov);
-   Tusk: "intentional provocation"; NATO SG Mark Rutte: "grave violation".
-2. Russia's air attack on Ukraine — AP/Europe Says: 400+ drones, 110 missiles
-   (Zelenskyy); at least 8 killed; Kyiv bridges and rail hit; Kryvyi Rih:
-   2 dead, 42 injured (Oleksandr Vilkul).
-3. UK–EU deals — BBC / One Turn News: food trade, carbon markets, youth
-   mobility (ages 18–31, annual cap), signed in Brussels; PM Andy Burnham.
-4. Ukraine peace deal by early January — Financial Times (four people
-   briefed); Jared Kushner: Russia "comfortable" with NATO-like guarantees.
-5. EU €1bn military aid — Council of the EU, 20 Nov: joint procurement via
-   the European Peace Facility, delivery by end of 2027.
-6. Cost-of-living protests — BBC: protests sweep across Europe; coordinated
-   youth action called for 20–22 November.
+## Lead stories
 
-## Middle East
-7. Iran war, ninth month — Reuters/Haaretz: Trump says he may not decide on
-   further strikes until 2027; US Senate rejects Iran war-powers resolution
-   51–48 (H.Con.Res.93).
-8. Houthi missiles over Riyadh — Reuters/Tribune: Saudi-led coalition
-   intercepted three ballistic missiles; strikes on Hodeidah; civilians told
-   to evacuate.
-9. Tanker strike, Strait of Hormuz — UKMTO Warning 214-26: strike and fire
-   reported 8 nautical miles north of Khasab.
-10. OFAC sanctions — US Treasury, published 20 Nov: four Iranians added for
-    roles in handling Iranian oil revenues.
+1. Denmark expels a Russian diplomat after a plot to murder a Ukrainian
+   rapper is foiled — Al Jazeera, 21 Nov 01:12.
+2. Saudi-led coalition intercepts three Houthi missiles headed for Riyadh;
+   third straight night of air-raid alerts — Al Jazeera, 21 Nov 04:32.
+3. Gen Z protests in 25 European countries over war, the cost of living
+   and the climate — Al Jazeera, 21 Nov 02:49.
 
-## Asia
-11. ICJ genocide ruling — ICJ, 19 Nov: 9–6 vote, Myanmar's security forces
-    committed state-sponsored genocide against the Rohingya in northern
-    Rakhine; UN chief welcomed the judgement.
-12. Cyclone Akvan — India Meteorological Department: landfall near Gopalpur
-    02:00–03:00 UTC 20 Nov, winds 70–80 km/h gusting 90 km/h; 372,000
-    evacuated; 423 rescue teams; no deaths or major damage reported.
-13. COP31 overtime — AP (Antalya): talks into overtime on Friday; fossil
-    fuels dropped from draft cover decision; Panama's minister Juan Carlos
-    Navarro threatens veto; third draft promised Saturday morning.
-14. Trump–Xi–Putin summit — AP/Reuters: first trilateral summit, Shenzhen;
-    few concrete results; agreement to seek UN reforms, increase oil supply,
-    dialogue on nuclear risks.
-15. India–NZ Wellington Test — IANS/Inshorts: NZ 368; India 159/1 at stumps
-    day 2, then 298/2; Jaiswal–Rahul century opening stand, first for India
-    in New Zealand this century.
-16. NSE 5th-largest — Observer Voice/Jagran Josh: NSE passes Nasdaq and HKEX
-    by market capitalisation; Sensex up 898 points on 21 Nov.
-17. India U17 Asian Cup — IANS: 0–0 vs Malaysia tops Group E (10 pts),
-    second straight qualification for AFC U17 Asian Cup (Uzbekistan 2027).
-18. Nepal PM India visit — Observer Voice: PM Balendra Shah to visit India
-    22–23 November.
+## The day in brief
 
-## North America
-19. Wall Street rout — Reuters/SimpleLife: S&P 500 off ~3.7%, Dow into
-    correction; Nasdaq −5.28% as AI sell-off deepens.
-20. Nvidia SEC probe — Reuters (two sources): SEC probing Nvidia's
-    accounting; Anthropic −10.2% a day after the biggest IPO ever.
-21. Bitcoin below $60,000 — Reuters: first time since July.
-22. GTA VI record — AP/Breitbart: $3.79bn in first-day retail sales, Rockstar
-    Games reports.
-23. Palisades Fire conviction — AP: Los Angeles jury convicts Jonathan
-    Rinderknecht of starting the deadly 2025 fire.
-24. Rikers Island — AP: NYC Mayor Zohran Mamdani plans to close Rikers
-    Island jail by 2032, opening four borough jails.
-25. Pete Rose pardon — AP: Trump posthumously pardons the late baseball star.
-26. Fiona the hippo — AP: Cincinnati Zoo says Fiona died from complications
-    days after swallowing a visitor's knit hat.
+4. COP31 talks stall — Al Jazeera, 21 Nov 01:44.
+5. Trump asks Nvidia to bring back Jensen Huang — Al Jazeera, 21 Nov 01:49.
+6. Three French police convicted over the racist attack on Michel Zecler —
+   Al Jazeera, 21 Nov 03:01.
+7. A new African credit-rating agency is launched — Al Jazeera, 21 Nov 01:36.
+8. About 600 women killed in South Africa in three months — Premium Times,
+   21 Nov 03:47 GMT.
+9. Japan partners ASEAN on critical minerals — Clash Report, 21 Nov 02:27:15Z.
+10. ASEAN summit and Quad meet in Manila — Morning Sun / PH News Hub, 21 Nov.
+11. KL Rahul's 100 completes his SENA set; India 344/2 in Wellington —
+    IANS, 21 Nov 8:34.
+12. Foreign investors pour a record ₹1.22 lakh crore into Indian stocks,
+    2–20 November — Daily Short, 21 Nov.
+13. Pochettino's Manchester United debut comes on Sunday at Liverpool —
+    Al Jazeera, 21 Nov 00:55.
 
-## Africa
-27. ANC cities — BBC (published 21 Nov 00:48 UTC): ANC 31% (down from 46%
-    in 2021), worst since 1994; DA takes Johannesburg and Pretoria;
-    coalition talks deadline 27 November.
-28. Femicide in South Africa — BBC: nearly 600 women killed within three
-    months.
-29. Sisi 2030 — Breitbart: Egyptian President Abdel Fattah el-Sisi says he
-    will step down in 2030.
+## Also on Saturday
 
-## Latin America
-30. Bukele third term — Breitbart: Nayib Bukele registers candidacy for the
-    2027 presidential election, seeking an unprecedented third term.
-31. US–Venezuela military ties — IRIA/Breakthrough News: agreement signed in
-    Caracas 18 Nov by Sec. of War Pete Hegseth and Defence Minister Gustavo
-    González López; joint training and intelligence sharing after a
-    two-decade break.
-32. Brazil fraud poll — AtlasIntel (published Friday): 42% of Brazilians
-    believe fraud happened in the 2026 presidential election.
-
-## Oceania
-33. Australian GP cancelled — Archysport: severe flooding cancels the
-    Phillip Island grand prix, the circuit's 30th and final GP.
-34. Australia–England T20 — FWC/Inshorts: 1st T20I at the MCG on 21 Nov;
-    Sandpapergate claims resurface; Smith's training closed to media.
-
-## Global
-35. Voyager 1 — AP/NASA: Voyager 1 phones home from one light-day away
-    (about 26 billion km).
+14. US declassifies UFO footage — Jabulani, 21 Nov.
+15. Obi vows to end kidnapping and corruption in Nigeria — Punch,
+    21 Nov 00:10 GMT.
+16. Springboks face Ireland in Dublin without Erasmus — News24,
+    21 Nov 03:05 GMT.
+17. Congress sweeps Rajasthan local polls, 33 of 37 districts, 3,701 seats
+    to 2,181 — World in 60, 21 Nov.
+18. Russell fastest in rainy Las Vegas GP practice — careerindia, 21 Nov.
+19. Kane out for months with an ankle injury — IANS, 21 Nov 8:18.
+20. India women beat Malaysia 4–1 in hockey — careerindia, 21 Nov.
+21. Ghana: unfit nursing students must not graduate — GhanaWeb,
+    21 Nov 04:34 GMT.
+22. Kenya: court case over the IEBC chief executive — The Standard,
+    21 Nov 04:00 GMT.
+23. Eswatini: dirty foam sparks a pollution probe on the Ngwempisi river —
+    21 Nov 01:00 GMT.
+24. Mali: 120 votes pass the textile company law — 21 Nov 00:22 GMT.
+25. Malawi: workplace pregnancies expose sexual exploitation — 21 Nov 04:44 GMT.
+26. Mauritius: Alex Ng Kong dies at 99 after an accident — 21 Nov 01:47 GMT.
+27. Uganda: 26 journalism fellows graduate — 21 Nov 04:47 GMT.
+28. Cyclone Xavier weakens after peaking as a Category 5 near the Cook
+    Islands — Marco Island Naples News, 21 Nov.
+29. Debate: should New Zealand become Australia's 7th state? — Hamilton
+    Malayalee, 21 Nov 00:24 UTC.
+30. World Television Day and World Fisheries Day — 21 Nov.
+31. Football: Troyes 3–1 Le Havre; Athletic 0–1 Espanyol — ScoreZaap,
+    21 Nov.
