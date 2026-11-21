@@ -80,7 +80,11 @@ def draw_hero(draw, img, y, height):
         nw, nh = int(photo.width * scale + 0.5), int(photo.height * scale + 0.5)
         photo = photo.resize((nw, nh), Image.LANCZOS)
         left = (nw - tw) // 2
-        top = (nh - th) // 2
+        # Top-biased crop: the soldiers' heads sit in the upper part of the
+        # frame, so anchor the band near the top (~13% of image height)
+        # instead of centring it, which cut the heads off.
+        top = int(nh * 0.13)
+        top = max(0, min(top, nh - th))
         img.paste(photo.crop((left, top, left + tw, top + th)), (x0, y))
     else:
         draw.rectangle([x0, y, x1, y + height], fill=(148, 152, 158))
