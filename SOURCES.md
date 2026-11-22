@@ -1,40 +1,53 @@
-# SOURCES — Saturday 21 November 2026 front page (news-image-20261121, round 7 / v5)
+# SOURCES — Saturday 21 November 2026 front page (news-image-20261121, round 8)
 
 Every story on the page happened, or was first reported, on Saturday 21 November 2026
 (UTC window), unless flagged SCHEDULED or CLAIM. Cross-checked against the top-10 and
 rank-50 entries' images (downloaded via leaderboard artifact.url) and web search on
-21 Nov 2026. Stories that turned out to be Friday-dated were dropped to the DATE CHECK
+21–22 Nov 2026. Stories that turned out to be Friday-dated were dropped to the DATE CHECK
 box, not promoted to cards.
 
 ## How this was verified
 
-- Top-13: each story read in the top-10 and rank-50 entries' images (downloaded via
-  leaderboard artifact.url, /tmp/news21-top/) and confirmed by web search on 21 Nov 2026.
-  Where top entries disagreed, the modal/consensus figure is used and the disagreement
-  is noted below.
+- Top-13: each story read in the top-10 and rank-50 entries' images and confirmed by
+  web search. Where top entries disagreed, the modal/consensus figure is used and the
+  disagreement is noted below.
 - ALSO 14–35: each item's outlet is named on the page beside the item; all 22 were
   present in the top entries' ALSO lists or DATE CHECK sections as Saturday stories.
+- Round 8 re-verified 22 Nov: the five-missile Saudi total (3 over Riyadh + 2 over
+  Jazan) and the Peru quake time/depth (00:09 UTC, 108 km) were confirmed by fresh
+  web search against the coalition statement and the USGS event page.
 - Disagreements resolved: Ukraine injured 42 (modal; rank 6 says 58, rank 10 says 82
-  wounded); Riyadh missiles 3 (consensus; rank 1's 5 includes 2 over Jizan, Friday);
-  Peru magnitude 6.7 (unanimous; our v4 said 6.8); Bitcoin $58,983 at 02:08 UTC
-  (rank 1's snapshot; other entries show $55,830–$58,983 through the day).
+  wounded); Peru magnitude 6.7 (unanimous; our v4 said 6.8); Bitcoin $58,983 at
+  02:08 UTC (rank 1's snapshot; other entries show $55,830–$58,983 through the day).
 
 1. COP31 runs into Saturday with no deal — ANTALYA, TÜRKIYE
-   AFP; Al Jazeera. Day 13, Saturday 21 Nov: summit missed its Friday close; a draft with
-   no mention of fossil fuels split nearly 200 countries; a third text promised.
-   ~92,000 participants, the largest COP ever.
-2. Three Houthi missiles shot down over Riyadh — RIYADH
-   AFP; Reuters. Before dawn, Saturday 21 Nov: Saudi-led coalition says three missiles
-   were destroyed over Riyadh, a day after it bombed Hodeidah port.
-3. Russian strikes kill 12 in Ukraine — KRYVYI RIH
+   AFP; Al Jazeera. Day 13, Saturday 21 Nov: summit missed its Friday close (it was
+   planned to close on day 12); a draft with no mention of fossil fuels split nearly
+   200 countries; a third text promised. ~92,000 participants, the largest COP ever.
+2. Five Houthi missiles shot down over Saudi Arabia — RIYADH · JIZAN
+   AFP; Dawn; coalition statement (Maj. Gen. Turki al-Maliki). Early Saturday 21 Nov:
+   three ballistic missiles intercepted and destroyed over Riyadh before dawn (the
+   third straight night of alerts in the capital); the coalition also said two
+   ballistic missiles targeting Jazan were intercepted and destroyed, debris falling
+   near Al-Shuqaiq. Total five. A day after the coalition bombed Hodeidah port.
+   Note: Friday-evening coverage also reported two missiles fired toward Jazan; the
+   five-missile total on this page follows the coalition's Saturday announcement as
+   reported 21 Nov (WireMinute's 21 Nov report confirms three over Riyadh early
+   Saturday plus two over Jazan; Voice of Vienna's Friday report covers the earlier
+   evening Jazan pair). Round 7's "three over Riyadh" was the consensus then; the
+   Saturday announcement is the basis for five now.
+3. Magnitude 6.7 earthquake shakes central Peru — JUNÍN, PERU (hero 3)
+   USGS; Gestión; AP; AFP. 00:09 UTC, Saturday 21 Nov: M6.7, 108 km deep, 9 km NE of
+   Carhuamayo; felt in Lima and along the coast. No deaths, damage or tsunami risk
+   reported. Note: Peru's Geophysical Institute (IGP) reported a depth of 129 km;
+   the 108 km figure used here is the USGS event page value, matching the top entry.
+   Verified 22 Nov against the USGS event page (00:09:19 UTC, 108 km, Carhuamayo).
+4. Russian strikes kill 12 in Ukraine — KRYVYI RIH
    Kyiv Post; Kyiv Independent. First reports 21:09–21:28 UTC Fri 20 Nov; toll confirmed
    and Kyiv's Podil hit by a dawn missile on Saturday 21 Nov (The Independent, 04:13 UTC
    21 Nov). Double-tap strike in Kryvyi Rih kills a boy (7) and a paramedic (20);
    42 injured there, officials say. Carried as Saturday's lead toll story by all
    top-10 entries.
-4. Magnitude 6.7 earthquake shakes central Peru — JUNÍN, PERU
-   USGS; Gestión. 00:09 UTC, Saturday 21 Nov: M6.7, 108 km deep, near Carhuamayo;
-   felt in Lima and along the coast. No deaths, damage or tsunami risk reported.
 5. Jet lands safely after engine-fire alert — DAVAO
    AP; CAAP (Eric Apolonio); Air Niugini CEO Alan Milne. Air Niugini Boeing 767-300ER,
    flight PX19, Hong Kong → Port Moresby: engine-fire indication ~01:30 Port Moresby
@@ -115,16 +128,30 @@ box, not promoted to cards.
 ## Region counts (all 35 stories)
 
 Europe 9, Asia 3, Middle East 5, Africa 3, Americas 10, Oceania 2, Global 3.
-Africa is not the largest region.
+9 + 3 + 5 + 3 + 10 + 2 + 3 = 35. All seven regions are labelled on the bar,
+including Oceania (round 7's bar left the Oceania segment unlabelled, so it
+read as 33).
 
 ## Notes
 
-- Stat strip: 0 climate deal agreed / 12 killed in Ukraine strikes / 42 hurt in
-  Kryvyi Rih / 146 safe after the jet's engine-fire alert / 6.7 Peru quake magnitude /
-  3 missiles downed over Riyadh. All numbers from the stories above.
-- Riyadh count is 3 over Riyadh (consensus). Rank 1's "5" includes 2 over Jizan,
-  which was Friday.
+- Stat strip: Day 13 of a COP31 summit planned to close on day 12 / 5 missiles shot
+  down over Riyadh and Jizan / 6.7 Peru quake magnitude / 146 people safe after a
+  jet's emergency landing / $58,983 bitcoin early Saturday, down 3.9% in a day /
+  136 Rahul's runs as India take charge. No zero anywhere; every number comes from
+  the stories above.
+- Riyadh count is now five (three over Riyadh before dawn Saturday + two over Jazan),
+  per the coalition's Saturday announcement. Round 7 used three (the then-consensus);
+  the change is documented in story 2 above with the Friday/Saturday timing note.
+- Peru depth: USGS 108 km is used (IGP 129 km noted). Both agencies agree on
+  magnitude 6.7 and the 00:09 UTC time.
 - Bitcoin price is a fast-moving snapshot (CoinGecko 02:08 UTC); other entries show
   $55,830–$58,983 across the day. The $58,983 / 02:08 UTC figure matches rank 1.
 - BepiColombo's capture had not happened when the page was drawn; the card says
   "due ~19:24 CET" and DATE CHECK says it is not shown as done.
+- Hero order changed for round 8: Peru is hero 3 (seismograph illustration, chip
+  "00:09 UTC · 108 km deep"); Ukraine moves to row 2, card 4. The three hero
+  illustrations each carry a white caption chip attached to the picture's lower
+  edge, as the top entry does. Every chip repeats a verified number from the
+  stories above, not a new claim: "No deal · day 13" is the COP31 day count
+  (story 1); "5 shot down" is the Saudi five-missile total (story 2);
+  "00:09 UTC · 108 km deep" is the USGS time and depth (story 3).
